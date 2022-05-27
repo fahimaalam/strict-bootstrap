@@ -1,0 +1,488 @@
+/*
+Author Name:Fahima Alam;
+Mail Address:;
+Site url:;
+GPL license:3.4.1;
+*/
+
+/*
+====Index====
+1. Global CSS
+2. Header Section
+3. Hero Section
+4. About
+5. Feature
+6. Portfolio
+7. Form
+8. Footer
+*/
+/* Global css*/
+body{
+	font-family: 'Lato', sans-serif;
+}
+h1{
+	font-size: 120px;
+	color: white;
+	font-weight: bold;
+	padding: 210px 0px 20px 0px;
+}
+h2{
+	font-size: 23px;
+	color: white;
+	padding: 20px 0px 20px 0px;
+}
+h3{
+	color: #2d3950;
+	padding: 80px 0px 40px 0px;
+	font-size: 42px;
+}
+h4{
+	color: #2d3950;
+	padding: 40px 0px 10px 0px;
+	font-size: 22px;
+	font-weight: bold;	
+}
+h5{
+	font-size: 41px;
+	color: #2d3950;
+}
+h6{
+	font-size: 41px;
+	color: white;
+	text-align: center;
+	font-weight: bold;
+	padding: 100px 0px 0px 0px;
+}
+p{
+	font-size: 20px;
+	color: #999999;
+	padding: 0px 0px 110px 0px;
+}
+span{
+	border: 2px solid #15a4fa;
+	display: block;
+	margin: 0 auto;
+	width: 40%;
+}
+/*************** Theme css********************/
+/*************** Header Section ********************/
+.logo {
+  margin: 40px 0px 30px 0px;
+  padding: 0px 0px 0px 145px;
+}
+/*************** Hero Section ********************/
+.hero{
+	background: url(../img/banner.png)no-repeat center top;
+	background-size: cover;
+}
+.hero-content{
+	text-align: center;
+}
+.btn{
+  	border: 2px solid #15a4fa;
+  	font-size: 20px;
+  	padding: 7px 30px 7px 30px;
+  	color: white;
+  	font-weight: bold;
+  	margin: 50px 0px 0px 0px;
+  	background: transparent;
+}
+.btn:hover{
+	background-color: white;
+	color: #15a4fa;
+}
+.fa.fa-angle-down{
+	font-size: 30px;
+	color: white;
+	padding: 90px 0px 80px 0px;
+}
+/*************** About Section ********************/
+.about{
+	background-color: #f6f9f9;
+}
+.about-content{
+	text-align: center;
+	color: #999999;
+}
+/*************** Feature Section ********************/
+.feature{
+}
+.feature-content{
+	text-align: center;
+	padding: 65px 0px 0px 0px;
+}
+.feature-one{	
+}
+.fa.fa-mobile{
+	font-size: 70px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	color: white;
+	padding: 20px 35px 20px 35px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-mobile:hover{
+	background: linear-gradient(to right, #2d3950 50%, #353d4d 50%);
+	transform: rotate(360deg);
+}
+.feature-two{
+}
+.fa.fa-paper-plane{
+	font-size: 70px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	color: white;
+	padding: 20px 35px 20px 35px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-paper-plane:hover{
+	background: linear-gradient(to right, #2d3950 50%, #353d4d 50%);
+	transform: rotate(360deg);
+}
+.feature-three{
+}
+.fa.fa-bullhorn{
+	font-size: 70px;
+	background: linear-gradient(to right, #48baff 50%, #5fc3ff 50%);
+	color: white;
+	padding: 20px 35px 20px 35px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-bullhorn:hover{
+	background: linear-gradient(to right, #2d3950 50%, #353d4d 50%);
+	transform: rotate(360deg);
+}
+.feature-content p{
+	font-size: 15px;
+	color: #999999;
+	padding: 0px 0px 65px 0px;
+}
+/*************** Portfolio Section ********************/
+.portfolio-content{
+	text-align: center;
+}
+.portfolio-content p{
+	font-size: 15px;
+	color: #999999;
+	padding: 0px 0px 40px 0px;
+}
+.portfolio-one{
+
+}
+.portfolio-two{
+	margin-top: 35px;
+	padding-bottom: 115px;
+}
+.image-hover{
+	position: relative;
+	overflow: hidden;
+	width: 87%;
+}
+.image-hover-content{
+	position: absolute;
+	background-color: #2cacf7cc;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: -100%;
+	transition: 0.4s ease-in-out;
+}
+.image-hover:hover .image-hover-content{
+	right: 0;
+}
+.fa.fa-search-plus{
+	position: absolute;
+	font-size: 30px;
+	top: 45%;
+	left: 40%;
+	color: white;
+}
+.fa.fa-link{
+	position: absolute;
+	font-size: 30px;
+	top: 45%;
+	left: 52%;
+	color: white;
+}
+/*************** Form Section ********************/
+.contact-form{
+	background: url(../img/form-bg.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.contact-content{
+	background-color: #2c364ac4;
+}
+.contact-content p{
+	font-size: 20px;
+	color: #999999;
+	padding: 0px 0px 25px 0px;
+	text-align: center;
+}
+.form-content{
+	padding-bottom: 150px;
+}
+.form-control{
+	padding: 10px 0px 10px 15px;
+	margin: 10px 0px 20px 0px;
+	background: transparent;
+	color: #6d727a;
+	font-weight: bold;
+}
+.check-control{
+
+}
+.label-control{
+	color: white;
+	padding: 10px 0px 0px 5px;
+	font-weight: bold;
+}
+.custom-btn{
+	float: right;
+	padding: 5px 20px 5px 20px;
+	border: 1px solid #15a4fa;
+	border-radius: 11px;
+	background: transparent;
+	color: white;
+	font-weight: bold;
+}
+.custom-btn:hover{
+	color: white;
+	background-color:#15a4fa;
+	border: 1px solid white;
+}
+/******************** Footer Section Start********************/
+footer{
+	padding: 25px 0px 25px 0px;
+}
+.footer-content{
+	color: #6d727a;
+	font-size: 15px;
+	font-weight: bold;
+}
+.footer-icons{
+
+}
+.fa.fa-facebook{
+	padding: 6px 10px 6px 10px;
+	background-color: #15a4fa;
+	color: white;
+	font-size: 16px;
+	margin: 0px 2px 0px 2px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-facebook:hover{
+	background-color:#2d384b;
+	border: 1px solid white;
+	transform: rotate(360deg);
+}
+.fa.fa-twitter{
+	padding: 6px 10px 6px 10px;
+	background-color: #15a4fa;
+	color: white;
+	font-size: 16px;
+	margin: 0px 2px 0px 2px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-twitter:hover{
+	background-color:#2d384b;
+	border: 1px solid white;
+	transform: rotate(360deg);
+}
+.fa.fa-linkedin{
+	padding: 6px 10px 6px 10px;
+	background-color: #15a4fa;
+	color: white;
+	font-size: 16px;
+	margin: 0px 2px 0px 2px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-linkedin:hover{
+	background-color:#2d384b;
+	border: 1px solid white;
+	transform: rotate(360deg);
+}
+.fa.fa-envelope{
+	padding: 6px 10px 6px 10px;
+	background-color: #15a4fa;
+	color: white;
+	font-size: 16px;
+	margin: 0px 2px 0px 2px;
+	transition: 0.4s ease-in-out;
+}
+.fa.fa-envelope:hover{
+	background-color:#2d384b;
+	border: 1px solid white;
+	transform: rotate(360deg);
+}
+/*************** Media Query ********************/ 
+/*************** Small Device  ********************/ 
+@media(min-width: 320px) and (max-width: 501px){
+.logo {
+  padding: 0px 0px 0px 15px;
+}
+h1 {
+  font-size: 66px;
+  padding: 35px 0px 20px 0px;
+}
+h2 {
+  font-size: 21px;
+}
+.btn {
+  font-size: 16px;
+  padding: 7px 25px 7px 25px;
+  margin: 35px 0px 0px 0px;
+}
+h3 {
+  padding: 40px 0px 20px 0px;
+  font-size: 32px;
+}
+p {
+  font-size: 15px;
+  padding: 0px 0px 30px 0px;
+}
+.feature-content {
+  padding: 35px 0px 0px 0px;
+}
+.fa.fa-mobile {
+  font-size: 50px;
+}
+.fa.fa-paper-plane{
+  font-size: 50px;
+}
+.fa.fa-bullhorn{
+  font-size: 50px;
+}
+h5 {
+  font-size: 33px;
+}
+.portfolio-two {
+  padding-bottom: 34px;
+}
+h6{
+  font-size: 32px;
+}
+.contact-content p {
+  font-size: 18px;
+}
+.form-control {
+  padding: 5px 0px 5px 15px;
+  margin: 5px 0px 15px 0px;
+}
+.label-control {
+  font-size: 15px;
+}
+.custom-btn {
+  padding: 5px 15px 5px 15px;
+}
+.form-content {
+  padding-bottom: 90px;
+}
+footer {
+  text-align: center;
+}
+.footer-icons {
+  margin-top: 10px;
+}
+}
+@media(min-width: 438px) and (max-width: 469px){
+.image-hover {
+  width: 84%;
+  display: block;
+  margin: 0 auto;
+}
+}
+@media(min-width: 470px) and (max-width: 486px){
+.image-hover {
+  width: 78%;
+  display: block;
+  margin: 0 auto;
+}
+}
+@media(min-width: 489px) and (max-width: 501px){
+.image-hover {
+  width: 74%;
+  display: block;
+  margin: 0 auto;
+}
+}
+/*************** Medium Device  ********************/ 
+@media(min-width: 502px) and (max-width: 767px){
+.logo {
+  padding: 0px 0px 0px 25px;
+}
+h1 {
+  font-size: 85px;
+  padding: 60px 0px 20px 0px;
+}
+h2 {
+  font-size: 21px;
+}
+.btn {
+  font-size: 18px;
+}
+h3 {
+  padding: 65px 0px 20px 0px;
+  font-size: 40px;
+}
+p {
+  font-size: 18px;
+  padding: 0px 0px 80px 0px;
+}
+h5 {
+  font-size: 36px;
+}
+h6 {
+  font-size: 36px;
+  padding: 55px 0px 0px 0px;
+}
+.form-control {
+  padding: 8px 0px 8px 15px;
+  margin: 8px 0px 18px 0px;
+}
+.label-control {
+  font-size: 14px;
+}
+.form-content {
+  padding-bottom: 80px;
+}
+footer {
+  text-align: center;
+}
+.footer-icons {
+  margin-top: 10px;
+}
+}
+@media(min-width: 502px) and (max-width: 539px){
+.image-hover {
+  width: 70%;
+  display: block;
+  margin: 0 auto;
+}
+}
+@media(min-width: 540px) and (max-width: 767px){
+.image-hover {
+  width: 65%;
+  display: block;
+  margin: 0 auto;
+}
+}
+/*************** Large Device  ********************/ 
+@media(min-width: 768px) and (max-width: 1139px){
+.logo {
+  margin: 40px 0px 30px 0px;
+}
+h1 {
+  font-size: 100px;
+  padding: 90px 0px 20px 0px;
+}
+.image-hover {
+  width: 100%;
+}
+.fa.fa-search-plus {
+  left: 36%;
+}
+}
+/*************** Large Device  ********************/ 
+@media(min-width: 1140px){
+
+}
+/*************************************** End  ********************************************/ 
